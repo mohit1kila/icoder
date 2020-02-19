@@ -15,7 +15,7 @@
 * Modify by            Date                       Desc
 
 ********************************************************************************************************************** 
-mohit  */
+*/
 
 global class API_Batch_DeleteApiLogs implements Database.Batchable<sObject> {
     private Integer maxLogAgeInDays = 7;
